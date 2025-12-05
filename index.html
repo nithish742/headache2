@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Quarterly Earnings Report</title>
+
+  <!-- RevealJS Core -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/theme/white.css">
+
+  <!-- Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/monokai.css">
+</head>
+
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- SLIDE 1 — INTRO -->
+    <section>
+      <h1>Quarterly Earnings Report</h1>
+      <h3>Presented by Technical Consultant</h3>
+
+      <!-- Your email (mandatory) -->
+      <p><strong>Email:</strong> 25f1001910@ds.study.iitm.ac.in</p>
+
+      <aside class="notes">
+        Welcome stakeholders. This report shows key financial performance using RevealJS interactive slides.
+      </aside>
+    </section>
+
+    <!-- SLIDE 2 — MARKDOWN SLIDE -->
+    <section data-markdown>
+      <textarea data-template>
+## Quarterly Overview (Markdown Slide)
+
+- Revenue Growth
+- Expense Reduction
+- Net Profit Performance  
+- Future Financial Stability
+
+---
+### Why RevealJS?
+
+- Web-friendly  
+- Supports math, code, charts  
+- Perfect for interactive reporting
+      </textarea>
+    </section>
+
+    <!-- SLIDE 3 — FRAGMENT ANIMATIONS -->
+    <section data-markdown>
+      <textarea data-template>
+## Key Financial Highlights (Fragment Animation)
+
+- <span class="fragment">Revenue increased by **18%**</span>
+- <span class="fragment">Expenses reduced by **6%**</span>
+- <span class="fragment">Net profit improved significantly</span>
+- <span class="fragment">Future projections remain strong</span>
+
+      </textarea>
+    </section>
+
+    <!-- SLIDE 4 — CODE WITH SYNTAX HIGHLIGHT -->
+    <section>
+      <h2>Profit Calculation Code</h2>
+
+      <pre><code class="language-js">
+// Quarterly profit calculation
+
+const revenue = 85000;
+const expenses = 46000;
+
+const profit = revenue - expenses;
+
+console.log("Quarterly Profit:", profit);
+      </code></pre>
+
+      <aside class="notes">
+        This example demonstrates a simple JavaScript snippet to compute quarterly profit.
+      </aside>
+    </section>
+
+    <!-- SLIDE 5 — MATHJAX -->
+    <section>
+      <h2>Financial Formula</h2>
+
+      <!-- Financial formula using MathJax -->
+      <p>
+        \[
+        \text{Net Profit} = \text{Revenue} - \text{Expenses}
+        \]
+      </p>
+      <p>
+        \[
+        ROI = \frac{\text{Net Gain}}{\text{Cost of Investment}}
+        \]
+      </p>
+
+      <aside class="notes">
+        Use these formulas when explaining profitability and ROI.
+      </aside>
+    </section>
+
+    <!-- SLIDE 6 — END -->
+    <section>
+      <h2>Thank You</h2>
+      <p>View this presentation online:<br>
+      <strong>https://nithish742.github.io/quarterly-earnings/</strong></p>
+
+      <aside class="notes">
+        End of presentation. Open to questions.
+      </aside>
+    </section>
+
+  </div>
+</div>
+
+<!-- RevealJS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.js"></script>
+
+<!-- Plugins -->
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/markdown/markdown.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/highlight/highlight.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/math/math.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/plugin/notes/notes.js"></script>
+
+<script>
+  Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    slideNumber: true,
+    hash: true,
+
+    plugins: [ RevealMarkdown, RevealHighlight, RevealMath, RevealNotes ]
+  });
+</script>
+
+</body>
+</html>
